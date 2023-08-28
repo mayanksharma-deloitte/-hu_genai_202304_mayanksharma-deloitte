@@ -8,7 +8,7 @@ from langchain.prompts import PromptTemplate
 from langchain.callbacks import get_openai_callback
 
 # Set OpenAI API key
-os.environ['OPENAI_API_KEY'] = "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"
+os.environ['OPENAI_API_KEY'] = "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"
 
 # Initialize OpenAI model
 llm_model = OpenAI(temperature=0.7)
